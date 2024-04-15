@@ -112,3 +112,14 @@ Encoding/
 ├── Encoding.py
 └── utils.py
 ```
+
+
+# Feature Selection
+## Execution
+1. Create directories named "data" and "model" under the FeatureSelection directory.
+2. Under the data directory, store the encoded data.
+3. Execute the FeatureSelection.py file.
+```python
+python FeatureSelection.py encoded_data.csv
+```
+4. The feature importance will be calculated and printed.
