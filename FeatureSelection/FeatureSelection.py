@@ -1,4 +1,5 @@
 from utils import calculate_FIS, feature_impact_analysis, feature_importance_ranking
+import sys
 
 class FeatureSelection():
     def __init__(self, data_path):

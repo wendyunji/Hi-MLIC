@@ -123,3 +123,25 @@ Encoding/
 python FeatureSelection.py encoded_data.csv
 ```
 4. The feature importance will be calculated and printed.
+
+# Best Model Selection
+## Execution
+1. Create directories named "data" under the BestModelSelection directory.
+2. Under the data directory, store the encoded data.
+### Directory Tree
+```
+BestModelSelection/
+│
+├── data/
+│   └── X_train.csv
+│   └── X_test.csv
+│   └── y_train.csv
+│   └── y_test.csv
+│
+├── GridSearch.py
+└── utils.py
+```
+3. Execute the BestModelSelection.py file.
+```python
+python BestModelSelection.py filename
+```
